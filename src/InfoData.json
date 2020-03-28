@@ -1,162 +1,73 @@
 [
     {
-        "id": 11,
-        "class": "c11",
+        "id": 1,
+        "class": "l1c1",
         "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 14,
-        "class": "c14",
-        "title": "Previsão de volume",
+        "id": 2,
+        "class": "l3c1",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 15,
-        "class": "c15",
-        "title": "Demanda a ser atendida",
+        "id": 3,
+        "class": "l3c3",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 21,
-        "class": "c21",
-        "title": "Indicadores operacionais",
+        "id": 4,
+        "class": "l3c7",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 22,
-        "class": "c22",
-        "title": "Capacidade de entrega",
+        "id": 5,
+        "class": "l1c9",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 24,
-        "class": "c24",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
+        "id": 6,
+        "class": "l1c7",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 25,
-        "class": "c25",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
+        "id": 7,
+        "class": "l3c9",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 33,
-        "class": "c33",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
+        "id": 8,
+        "class": "l5c5",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 42,
-        "class": "c42",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
+        "id": 9,
+        "class": "l7c5",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     },
     {
-        "id": 43,
-        "class": "c43",
-        "title": "",
-        "content": "",
-        "type": "diamond"
-    },
-    {
-        "id": 53,
-        "class": "c53",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 54,
-        "class": "c54",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 63,
-        "class": "c63",
-        "title": "",
-        "content": "Todo o texto do conteúdo",
-        "type": "diamond"
-    },
-    {
-        "id": 73,
-        "class": "c73",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 82,
-        "class": "c82",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 83,
-        "class": "c83",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 92,
-        "class": "c92",
-        "title": "",
-        "content": "Todo o texto do conteúdo",
-        "type": "diamond"
-    },
-    {
-        "id": 93,
-        "class": "c93",
-        "title": "",
-        "content": "Todo o texto do conteúdo",
-        "type": "diamond"
-    },
-    {
-        "id": 102,
-        "class": "c102",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 103,
-        "class": "c103",
-        "title": "",
-        "content": "Todo o texto do conteúdo",
-        "type": "diamond"
-    },
-    {
-        "id": 112,
-        "class": "c112",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },
-    {
-        "id": 113,
-        "class": "c113",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
-        "content": "Todo o texto do conteúdo",
-        "type": ""
-    },{
-        "id": 114,
-        "class": "c114",
-        "title": "Equipe de Betoneras bombas carrinho de concreto MCC",
+        "id": 9,
+        "class": "l9c5",
+        "title": "ContratosX fechadosX",
         "content": "Todo o texto do conteúdo",
         "type": ""
     }
+   
 ]
