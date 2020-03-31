@@ -72,6 +72,7 @@ class App extends Component {
                 <ScrollDialog
                   title={conteudos.title}
                   content={conteudos.content}
+                  disabled={conteudos.disabled}
                 />
               </h1>
             );
