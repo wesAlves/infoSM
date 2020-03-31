@@ -1,5 +1,6 @@
 {
   "name": "infografico",
+  "homepage": "http://takuaramarcenaria.space/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "json-loader": "^0.5.7",
+    "netlify-cli": "^2.40.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

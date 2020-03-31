@@ -33,9 +33,9 @@ class Svg extends Component {
           points={this.props.pt == null ? "0, 25 125,25" : this.props.pt}
           fill="none"
           stroke="black"
-          stroke-width="2"
-          marker-end="url(#arrow)"
-          marker-start="url(#circle)"
+          strokeWidth="2"
+          markerEnd="url(#arrow)"
+          markerStart="url(#circle)"
           // marker-mid="url(#circle)"
         />
       </svg>

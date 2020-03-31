@@ -7,6 +7,20 @@ import Svg from "./components/svg";
 import container, { Container } from '@material-ui/core';
 
 class App extends Component {
+  state = {
+    loadign: true,
+    box: null
+  }
+
+async componentDidMount(){
+  // const url = "https://api.randomuser.me/"
+  const response = await fetch(data);
+  // const data = await response.json;
+  this.setState({box: data[0], loadign: false})
+  console.log(data);
+
+}
+
   render() {
     return (
       <div>
@@ -62,10 +76,19 @@ class App extends Component {
 
 
         </div>
-        <div className="container container--box">
+          {this.state.loadign ||!this.state.box ? (<div>loading...</div>) : (
+          <div>
+            <div>
+              {this.state.box.id}
+              {this.state.box.title}
+            </div>
+          </div>
+          )}
+        {/* <div className="container container--box">
           {data.map((conteudos, index) => {
             return (
               <h1
+              key = {conteudos.id}
                 className={[conteudos.class, conteudos.type].join(" ")}
                 style={{ gridArea: conteudos.class }}
               >
@@ -77,7 +100,7 @@ class App extends Component {
               </h1>
             );
           })}
-        </div>
+        </div> */}
        
         </Container>
       </div>
