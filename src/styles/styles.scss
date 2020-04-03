@@ -2,16 +2,26 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(5, 18%);
-  grid-template-rows: repeat(11, 50px);
+  grid-template-rows: repeat(11, auto);
   position: relative;
   grid-gap: 10px;
 
-  & > h1 {
+  & > p {
+    margin: 0 auto;
     position: relative;
     place-self: center;
     min-width: 50px;
     min-height: 50px;
-    // display: block;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: repeat(3, auto);
+  }
+  & > .diamond{
+    margin: 0 auto;
+    display: grid;
+  grid-template-columns: max(30px) 100px max(30px);
+  grid-template-rows: repeat(3, auto);
+  justify-content: center;
   }
 }
 .container--box {
@@ -27,7 +37,7 @@
 }
 
 .MainBt {
-  margin: auto;
+  // margin: auto;
   font-size: 1rem;
   color: #fff;
   background: #bbb;
@@ -47,18 +57,57 @@
   // }
 }
 
+.diamond {
+  text-align: center;
+  font-size: .75rem;
+  & > .MainBt {
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    box-shadow: none;
+    font-size: inherit;
+    &::before {
+      margin: auto;
+      content: "";
+      display: block;
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      left: 30%;
+      top: 30%;
+      z-index: -1;
+      background: yellow;
+    box-shadow: none;
 
-.diamond{
-  .yes{
+      /* Rotação */
+      transform: rotate(-45deg);
     
-    background: rebeccapurple;
+    }
+    // width: 80px;
+    // height: 80px;
   }
-  .no{
-    background: yellow;
-
+  & > .yes {
+    min-width: 25px;
+    line-height: 25px;
+    min-height: 25px;
+    background: burlywood;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  & > .no {
+    min-width: 25px;
+    min-height: 25px;
+    line-height: 25px;
+    background: orchid;
+    justify-self: center;
+    align-self: center;
+    border-radius: 50px;
+    cursor: pointer;
   }
   width: 100%;
-display: flex;
   // &::after {
   //   content: "Sim";
   //   font-size: 16px;

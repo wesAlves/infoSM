@@ -2,6 +2,9 @@
     {
         "id": 1,
         "position": "1 / 1",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Contratos fechados",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -10,6 +13,9 @@
     {
         "id": 2,
         "position": "2 / 1",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Previsão de Volume",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -18,6 +24,9 @@
     {
         "id": 3,
         "position": "2 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Demanda a ser atendida",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -26,6 +35,9 @@
     {
         "id": 4,
         "position": "2 / 4",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Capacidade de Entrega",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -34,6 +46,9 @@
     {
         "id": 5,
         "position": "1 / 5",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Equipe, Betoneiras, Bombas, Centrais de Concreto, MCC",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -42,6 +57,9 @@
     {
         "id": 6,
         "position": "1 / 4",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Indicadores Operacionais",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -50,6 +68,9 @@
     {
         "id": 7,
         "position": "2 / 5",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Plano de Manutenção Preventiva",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -58,6 +79,9 @@
     {
         "id": 8,
         "position": "3 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Planejamento Mensal",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -66,6 +90,9 @@
     {
         "id": 9,
         "position": "4 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -74,6 +101,9 @@
     {
         "id": 10,
         "position": "4 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Ajuste na Capacidade de Atendimento",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -82,6 +112,9 @@
     {
         "id": 11,
         "position": "5 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Programação de Entrega",
         "ordem": "1",
         "content": {
@@ -93,6 +126,9 @@
     {
         "id": 12,
         "position": "5 / 4",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Recebimento de Pedido de Programação",
         "ordem": "03",
         "content": {"main":"", "sim":"", "nao":""},
@@ -101,6 +137,9 @@
     {
         "id": 13,
         "position": "6 / 3",
+        "yesPos":"3/2",
+        "mainPos":"2/2",
+        "noPos":"2/1",
         "title": "Demanda maior que a capacidade",
         "ordem": "2",
         "content": {
@@ -112,6 +151,9 @@
     {
         "id": 14,
         "position": "7 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Lista de Espera",
         "ordem": "4",
         "content": {"main":"", "sim":"", "nao":""},
@@ -120,6 +162,9 @@
     {
         "id": 15,
         "position": "8 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Confirmações de Programações Telefone , vistoria",
         "ordem": "5",
         "content": {"main":"", "sim":"", "nao":""},
@@ -128,6 +173,9 @@
     {
         "id": 17,
         "position": "9 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Consigo negociar ajustes nas Programações?",
         "ordem": "7",
         "content": {"main":"", "sim":"", "nao":""},
@@ -136,6 +184,9 @@
     {
         "id": 18,
         "position": "7 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Obter mais recursos?",
         "ordem": "9",
         "content": {"main":"", "sim":"", "nao":""},
@@ -144,6 +195,9 @@
     {
         "id": 19,
         "position": "9 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Programação confirmada",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -152,6 +206,9 @@
     {
         "id": 20,
         "position": "10 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Negociação e ajuste com clientes e comercial",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -160,6 +217,9 @@
     {
         "id": 21,
         "position": "10 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -168,6 +228,9 @@
     {
         "id": 22,
         "position": "11 / 2",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Sintonia final entre operação e comercial",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -176,6 +239,9 @@
     {
         "id": 23,
         "position": "11 / 3",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Negociação e ajustes finais com cliente",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},
@@ -184,6 +250,9 @@
     {
         "id": 24,
         "position": "11 / 4",
+        "yesPos":"",
+        "mainPos":"2/1/2/4",
+        "noPos":"",
         "title": "Programação de entrega refinada e consolidada",
         "ordem": "",
         "content": {"main":"", "sim":"", "nao":""},

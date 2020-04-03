@@ -15,7 +15,7 @@ class App extends Component {
           <div className="container container--box">
             {data.map((conteudos, index) => {
               return (
-                <h1
+                <p
                   className={[conteudos.class, conteudos.type].join(" ")}
                   style={{ gridArea: conteudos.position }}
                 >
@@ -24,6 +24,7 @@ class App extends Component {
                       title={conteudos.title}
                       content={conteudos.content.main}
                       clsName = "MainBt"
+                      contPos = {conteudos.mainPos}
                     />
                   ) : (
                     <Fragment className="diamond">
@@ -31,20 +32,23 @@ class App extends Component {
                         title="Sim"
                         content={conteudos.content.sim}
                       clsName = "yes"
+                      contPos = {conteudos.yesPos}
                       />
                       <ScrollDialog
                         title={conteudos.title}
                         content={conteudos.content.main}
                       clsName = "MainBt"
+                      contPos = {conteudos.mainPos}
                       />
                       <ScrollDialog
                         title="Não"
                         content={conteudos.content.nao}
                       clsName = "no"
+                      contPos = {conteudos.noPos}
                       />
                     </Fragment>
                   )}
-                </h1>
+                </p>
               );
             })}
           </div>
