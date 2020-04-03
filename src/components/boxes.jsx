@@ -31,7 +31,7 @@ const ScrollDialog = (props) => {
 
   return (
     <div>
-      <div className = "MainBt" onClick={handleClickOpen('paper')} >{props.title}</div>
+      <div className = {props.clsName} onClick={handleClickOpen('paper')} >{props.title}</div>
       {/* <Button onClick={handleClickOpen('body')}>scroll=body</Button> */}
       <Dialog
         open={open}
@@ -48,7 +48,7 @@ const ScrollDialog = (props) => {
             ref={descriptionElementRef}
             tabIndex={-1}
           >
-            {props.main}
+            {props.content}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
