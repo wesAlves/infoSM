@@ -48,7 +48,7 @@ const ScrollDialog = (props) => {
             ref={descriptionElementRef}
             tabIndex={-1}
           >
-            {props.content}
+            {props.main}
           </DialogContentText>
         </DialogContent>
         <DialogActions>
