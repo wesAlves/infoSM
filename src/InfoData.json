@@ -2,260 +2,346 @@
     {
         "id": 1,
         "position": "1 / 1",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Contratos fechados",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 2,
         "position": "2 / 1",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Previsão de Volume",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 3,
         "position": "2 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Demanda a ser atendida",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 4,
         "position": "2 / 4",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Capacidade de Entrega",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 5,
         "position": "1 / 5",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Equipe, Betoneiras, Bombas, Centrais de Concreto, MCC",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 6,
         "position": "1 / 4",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Indicadores Operacionais",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 7,
         "position": "2 / 5",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Plano de Manutenção Preventiva",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 8,
         "position": "3 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Planejamento Mensal",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 9,
         "position": "4 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
-        "title": "",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
+        "title": "Capacidade adequada ao planejamento?",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": " ",
+            "nao": ""
+        },
         "type": "diamond"
     },
     {
         "id": 10,
-        "position": "4 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "position": "4 / 4",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Ajuste na Capacidade de Atendimento",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 11,
         "position": "5 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Programação de Entrega",
-        "ordem": "1",
+        "ordem": "",
         "content": {
-            "main":"1 – Com o planejamento feito você começa a receber as solicitações de programação. O cliente solicita a programação via e-mail ou telefone, informando o número do contrato, traço, volume, peça de aplicação e a data, horário de início, intervalo de carregamento e tipo de bomba",
-            "sim":"",
-            "nao":""},
+            "main": "1 – Com o planejamento feito você começa a receber as solicitações de programação. O cliente solicita a programação via e-mail ou telefone, informando o número do contrato, traço, volume, peça de aplicação e a data, horário de início, intervalo de carregamento e tipo de bomba",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 12,
         "position": "5 / 4",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Recebimento de Pedido de Programação",
         "ordem": "03",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 13,
         "position": "6 / 3",
-        "yesPos":"3/2",
-        "mainPos":"2/2",
-        "noPos":"2/1",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Demanda maior que a capacidade",
-        "ordem": "2",
+        "ordem": "1",
         "content": {
-            "main":"2 – Você  programador analisa a solicitação do cliente e a disponibilidade de horários (verificando no sistema Programação WEB) e recursos (verificando disponibilidade de betoneira, bomba e ponto de carga), realiza as negociações necessárias para viabilizar o atendimento; Atenção:  fique atento às sugestões do “Perfil do Cliente” para negociações caso a solicitação do cliente seja incompatível com o que ele executa.",
-            "sim":"4  A partir do momento que o cliente solicita uma programação para uma data e horário, onde já exista outra programação e o programador já tenha tentado negociar com o cliente um outro horário ou data que ele tenha disponível, sem sucesso, o cliente deverá entra em uma “lista de espera”.",
-            "nao":"3 Já que há capacidade de atendimento , a programação é efetivada  e automaticamente é gerado  o número da PE (Programação de entrega),  Repasse ste número ao cliente para que ele possa fazer consultas até o encerramento do atendimento; Importante:   Ao receber as solicitações de programação monte  uma grade de modo que a distribuição dos carregamentos permita o constante fornecimento de concreto/argamassa, respeitando o intervalo programado.  Em casos de bombeado, programar a liberação da bomba o mais breve possível para atender, caso haja, o repique planejado. ESTE PROCEDIMENTO DE PROGRAMAÇÃO É REPETIDO ATÉ UM DIA ANTES DA CONCRETAGEM, quando todas as programações devem estar confirmadas"},
+            "main": "2 – Você  programador analisa a solicitação do cliente e a disponibilidade de horários (verificando no sistema Programação WEB) e recursos (verificando disponibilidade de betoneira, bomba e ponto de carga), realiza as negociações necessárias para viabilizar o atendimento; Atenção:  fique atento às sugestões do “Perfil do Cliente” para negociações caso a solicitação do cliente seja incompatível com o que ele executa.",
+            "sim": "4  A partir do momento que o cliente solicita uma programação para uma data e horário, onde já exista outra programação e o programador já tenha tentado negociar com o cliente um outro horário ou data que ele tenha disponível, sem sucesso, o cliente deverá entra em uma “lista de espera”.",
+            "nao": "3 Já que há capacidade de atendimento , a programação é efetivada  e automaticamente é gerado  o número da PE (Programação de entrega),  Repasse ste número ao cliente para que ele possa fazer consultas até o encerramento do atendimento; Importante:   Ao receber as solicitações de programação monte  uma grade de modo que a distribuição dos carregamentos permita o constante fornecimento de concreto/argamassa, respeitando o intervalo programado.  Em casos de bombeado, programar a liberação da bomba o mais breve possível para atender, caso haja, o repique planejado. ESTE PROCEDIMENTO DE PROGRAMAÇÃO É REPETIDO ATÉ UM DIA ANTES DA CONCRETAGEM, quando todas as programações devem estar confirmadas"
+        },
         "type": "diamond"
     },
     {
         "id": 14,
         "position": "7 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Lista de Espera",
         "ordem": "4",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 15,
         "position": "8 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Confirmações de Programações Telefone , vistoria",
         "ordem": "5",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "5  Agora é hora de  você confirmar as programações existentes via telefone ou através do do programador externo , para que consiga  disponibilizar a data ou horário que o cliente deseja ou oferecer outras opções.",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
+    },
+    {
+        "id": 16,
+        "position": "9 / 3",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
+        "title": "Programações confirmada?",
+        "ordem": "2",
+        "content": {
+            "main": "",
+            "sim": " 7  Se  todos clientes confirmarem, então você deve tentar negociar ajustes nas programações",
+            "nao": " 6 Se  algum cliente não confirmar e liberar  horário , você poderá registrar a programação para outro cliente"
+        },
+        "type": "diamond"
     },
     {
         "id": 17,
         "position": "9 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "1/2",
         "title": "Consigo negociar ajustes nas Programações?",
-        "ordem": "7",
-        "content": {"main":"", "sim":"", "nao":""},
+        "ordem": "3",
+        "content": {
+            "main": "",
+            "sim": " 8  Se  você conseguiu negociar ajustes nas programações  envolva sempre que necessário o cometcial",
+            "nao": " 9 Porém  Se não for possível negociar ajustes verifique a possibilidade de obtenção de mais recursos (equipamentos e pessoas), para que o cliente seja atendido na data/horário ou mais próximo do desejado."
+        },
         "type": "diamond"
     },
     {
         "id": 18,
         "position": "7 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "1/2",
+        "mainPos": "2/2",
+        "noPos": "2/1",
         "title": "Obter mais recursos?",
-        "ordem": "9",
-        "content": {"main":"", "sim":"", "nao":""},
-        "type": "diamond"
-    },
-    {
-        "id": 19,
-        "position": "9 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
-        "title": "Programação confirmada",
-        "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "ordem": "3",
+        "content": {
+            "main": "",
+            "sim": " 10 Se  você conseguiu mais recursos , então você poderar registra a programação com estes novos recursos",
+            "nao": "11  No caso de conflitos de programação  ou interesses comercial , e não ser possível mais recurso, você deve ,sempre que necessário, envolver o comercial., na priorização ou negociação com o cliente"
+        },
         "type": "diamond"
     },
     {
         "id": 20,
         "position": "10 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Negociação e ajuste com clientes e comercial",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 21,
         "position": "10 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
-        "title": "",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
+        "title": "Estamos em D-1?",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "12 Atenção, no dia anterior à concretagem, todas as programações devem estar confirmadas . E sempre que você julgar necessário solicite  ao programador externo realizar vistoria   para verificar as condições da obra e acessos, bem como informar a viabilidade da concretagem/entrega de argamassa para a programação. Além disso, em caso de concretagem com bomba, deve-se verificar a quantidade de material necessário (tubulação, abraçadeira, mangote, etc) minimizando imprevistos no dia da concretagem.",
+            "nao": "12  Até o dia anterior à concretagem você continuará recebendo solicitações de programação"
+        },
         "type": "diamond"
     },
     {
         "id": 22,
         "position": "11 / 2",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Sintonia final entre operação e comercial",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "13 – Finalmente você irá  realizar a sintonia final entre operação e comercial para consolidar a programação das concretagens do dia seguinte",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 23,
         "position": "11 / 3",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Negociação e ajustes finais com cliente",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     },
     {
         "id": 24,
         "position": "11 / 4",
-        "yesPos":"",
-        "mainPos":"2/1/2/4",
-        "noPos":"",
+        "yesPos": "2/1",
+        "mainPos": "2/2",
+        "noPos": "2/3",
         "title": "Programação de entrega refinada e consolidada",
         "ordem": "",
-        "content": {"main":"", "sim":"", "nao":""},
+        "content": {
+            "main": "",
+            "sim": "",
+            "nao": ""
+        },
         "type": ""
     }
 ]

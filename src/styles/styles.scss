@@ -1,27 +1,28 @@
 .container {
+  margin: 20px 0;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 18%);
-  grid-template-rows: repeat(11, auto);
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(11, 70px);
   position: relative;
-  grid-gap: 10px;
+  grid-gap: 0 12px;
 
   & > p {
+    max-width: 95%;
     margin: 0 auto;
     position: relative;
     place-self: center;
     min-width: 50px;
     min-height: 50px;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-template-rows: repeat(3, auto);
+    align-self: center;
+    justify-self: start;
   }
-  & > .diamond{
+  & > .diamond {
     margin: 0 auto;
     display: grid;
-  grid-template-columns: max(30px) 100px max(30px);
-  grid-template-rows: repeat(3, auto);
-  justify-content: center;
+    grid-template-columns: max(30px) max(150px) max(30px);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
   }
 }
 .container--box {
@@ -34,6 +35,8 @@
   position: absolute;
   // background-color: green;
   z-index: 0;
+  // grid-template-rows: repeat(11, 50px);
+
 }
 
 .MainBt {
@@ -59,7 +62,7 @@
 
 .diamond {
   text-align: center;
-  font-size: .75rem;
+  font-size: 0.75rem;
   & > .MainBt {
     color: #000;
     position: relative;
@@ -78,11 +81,10 @@
       top: 30%;
       z-index: -1;
       background: yellow;
-    box-shadow: none;
+      box-shadow: none;
 
       /* Rotação */
       transform: rotate(-45deg);
-    
     }
     // width: 80px;
     // height: 80px;
@@ -143,9 +145,12 @@
 }
 .svg {
   width: 100%;
-  height: 100%;
+  height: 50%;
   min-height: 15px;
   overflow: visible;
+  justify-self: center;
+  align-self: center;
+// background:  yellowgreen;
 }
 
 .lines {
