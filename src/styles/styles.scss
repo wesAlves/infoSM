@@ -2,10 +2,11 @@
   margin: 20px 0;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(5, 20%);
-  grid-template-rows: repeat(11, 70px);
+  grid-template-columns: repeat(5, 19.4%);
+  grid-template-rows: repeat(11, 150px);
   position: relative;
-  grid-gap: 0 12px;
+  grid-gap: 10px;
+  // background: rebeccapurple;
 
   & > p {
     max-width: 95%;
@@ -16,6 +17,8 @@
     min-height: 50px;
     align-self: center;
     justify-self: start;
+    height: 150px;
+    // padding: 10px;
   }
   & > .diamond {
     margin: 0 auto;
@@ -23,6 +26,62 @@
     grid-template-columns: max(30px) max(150px) max(30px);
     grid-template-rows: repeat(3, auto);
     justify-content: center;
+    padding: 3px;
+    text-align: center;
+    font-size: 1rem;
+    vertical-align: middle;
+    border: 1px solid;
+
+    & > .MainBt {
+      color: purple;
+      position: absolute;
+      cursor: pointer;
+      background: none;
+      box-shadow: none;
+      font-size: inherit;
+      text-align: inherit;
+      max-width: 80%;
+      text-overflow: wrap;
+      padding: 0;
+      &::before {
+        margin: auto;
+        content: "";
+        display: block;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: calc( 50% - 50px);
+        top: -30%;
+        background: yellow;
+        box-shadow: none;
+        z-index: -15;
+
+        /* Rotação */
+        transform: rotate(-45deg);
+      }
+      // width: 80px;
+      // height: 80px;
+    }
+    & > .yes {
+      min-width: 25px;
+      line-height: 25px;
+      min-height: 25px;
+      background: burlywood;
+      justify-self: center;
+      align-self: center;
+      border-radius: 50px;
+      cursor: pointer;
+    }
+    & > .no {
+      min-width: 25px;
+      min-height: 25px;
+      line-height: 25px;
+      background: orchid;
+      justify-self: center;
+      align-self: center;
+      border-radius: 50px;
+      cursor: pointer;
+    }
   }
 }
 .container--box {
@@ -36,7 +95,6 @@
   // background-color: green;
   z-index: 0;
   // grid-template-rows: repeat(11, 50px);
-
 }
 
 .MainBt {
@@ -45,10 +103,11 @@
   color: #fff;
   background: #bbb;
   border-radius: 10px;
-  text-align: center;
+  text-align: initial;
+  // text-align: center;
   vertical-align: middle;
   box-shadow: 1px 1px 4px #bbb3;
-  padding: 5px;
+  padding: 20px;
 
   // &:hover {
   //   font-size: 1rem;
@@ -60,89 +119,6 @@
   // }
 }
 
-.diamond {
-  text-align: center;
-  font-size: 0.75rem;
-  & > .MainBt {
-    color: #000;
-    position: relative;
-    cursor: pointer;
-    background: none;
-    box-shadow: none;
-    font-size: inherit;
-    &::before {
-      margin: auto;
-      content: "";
-      display: block;
-      width: 30px;
-      height: 30px;
-      position: absolute;
-      left: 30%;
-      top: 30%;
-      z-index: -1;
-      background: yellow;
-      box-shadow: none;
-
-      /* Rotação */
-      transform: rotate(-45deg);
-    }
-    // width: 80px;
-    // height: 80px;
-  }
-  & > .yes {
-    min-width: 25px;
-    line-height: 25px;
-    min-height: 25px;
-    background: burlywood;
-    justify-self: center;
-    align-self: center;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  & > .no {
-    min-width: 25px;
-    min-height: 25px;
-    line-height: 25px;
-    background: orchid;
-    justify-self: center;
-    align-self: center;
-    border-radius: 50px;
-    cursor: pointer;
-  }
-  width: 100%;
-  // &::after {
-  //   content: "Sim";
-  //   font-size: 16px;
-  //   text-align: right;
-  //   // line-height: 75px;
-  //   // display: block;
-  //   // border-radius: 5px;
-  //   width: 50px;
-  //   // height: 50px;
-  //   /* Rotação */
-  //   // transform: rotate(-45deg);
-  //   // position: absolute;
-  //   // top: 12%;
-  //   // left: 35%;
-  //   cursor: pointer;
-  // }
-  // &::before {
-  //   content: "Não";
-  //   font-size: 16px;
-  //   text-align: left;
-  //   // line-height: 75px;
-  //   // display: block;
-  //   // border-radius: 5px;
-  //   width: 50px;
-  //   // height: 50px;
-  //   /* Rotação */
-  //   // transform: rotate(45deg);
-  //   // position: absolute;
-  //   // top: 12%;
-  //   // left: 35%;
-  //   cursor: pointer;
-  // }
-}
 .svg {
   width: 100%;
   height: 50%;
@@ -150,7 +126,7 @@
   overflow: visible;
   justify-self: center;
   align-self: center;
-// background:  yellowgreen;
+  // background:  yellowgreen;
 }
 
 .lines {
