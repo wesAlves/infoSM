@@ -8,20 +8,6 @@ import container, { Container } from "@material-ui/core";
 import { Fragment } from "react";
 
 class App extends Component {
-  state = {
-    loadign: true,
-    box: null
-  }
-
-async componentDidMount(){
-  // const url = "https://api.randomuser.me/"
-  const response = await fetch(data);
-  // const data = await response.json;
-  this.setState({box: data[0], loadign: false})
-  console.log(data);
-
-}
-
   render() {
     return (
       <div>
