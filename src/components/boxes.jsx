@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import Button from '@material-ui/core/Button';
 import Dialog from '@material-ui/core/Dialog';
 import DialogActions from '@material-ui/core/DialogActions';
@@ -30,8 +30,8 @@ const ScrollDialog = (props) => {
   }, [open]);
 
   return (
-    <div>
-      <div className = "MainBt" onClick={handleClickOpen('paper')} >{props.title}</div>
+    <Fragment >
+      <div style={{ gridArea: props.contPos }} className = {props.clsName} onClick={handleClickOpen('paper')} >{props.title}</div>
       {/* <Button onClick={handleClickOpen('body')}>scroll=body</Button> */}
       <Dialog
         open={open}
@@ -57,7 +57,7 @@ const ScrollDialog = (props) => {
           </Button>
         </DialogActions>
       </Dialog>
-    </div>
+    </Fragment>
   );
 };
 
