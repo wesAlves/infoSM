@@ -31,7 +31,7 @@ const ScrollDialog = (props) => {
 
   return (
     <div>
-      <div className = "MainBt" onClick={handleClickOpen('paper')}>{props.title}</div>
+      <div className = "MainBt" onClick={handleClickOpen('paper')} >{props.title}</div>
       {/* <Button onClick={handleClickOpen('body')}>scroll=body</Button> */}
       <Dialog
         open={open}
@@ -39,6 +39,7 @@ const ScrollDialog = (props) => {
         scroll={scroll}
         aria-labelledby="scroll-dialog-title"
         aria-describedby="scroll-dialog-description"
+        disabled= {props.disabled}
       >
         <DialogTitle id="scroll-dialog-title">{props.title}</DialogTitle>
         <DialogContent dividers={scroll === 'paper'}>
