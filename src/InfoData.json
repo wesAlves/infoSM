@@ -122,7 +122,7 @@
     {
         "id": 9,
         "position": "4 / 3",
-        "yesPos": "2/1",
+        "yesPos": "3/2",
         "mainPos": "2/2",
         "noPos": "2/3",
         "title": "Capacidade adequada ao planejamento?",
@@ -182,7 +182,7 @@
     {
         "id": 13,
         "position": "6 / 3",
-        "yesPos": "2/1",
+        "yesPos": "3/2",
         "mainPos": "2/2",
         "noPos": "2/3",
         "title": "Demanda maior que a capacidade",
@@ -287,7 +287,7 @@
     {
         "id": 21,
         "position": "10 / 3",
-        "yesPos": "2/1",
+        "yesPos": "3/2",
         "mainPos": "2/2",
         "noPos": "2/3",
         "title": "Estamos em D-1?",
@@ -301,7 +301,7 @@
     },
     {
         "id": 22,
-        "position": "11 / 2",
+        "position": "11 / 1",
         "yesPos": "2/1",
         "mainPos": "2/2",
         "noPos": "2/3",
@@ -331,7 +331,7 @@
     },
     {
         "id": 24,
-        "position": "11 / 4",
+        "position": "11 / 5",
         "yesPos": "2/1",
         "mainPos": "2/2",
         "noPos": "2/3",
