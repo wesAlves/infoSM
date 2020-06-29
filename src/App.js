@@ -100,20 +100,20 @@ class App extends Component {
           </div>
           <div className="container demandaXcapacidade">
             <div className="demanda">
-              <h4>DEMANDA :</h4>
+              {/* <h4>DEMANDA :</h4>
               <p>
                 Antes do cliente solicitar a programação, o contrato deverá
                 estar fechado e assinado, os traços inseridos e ativos no
                 sistema e o saldo (volume) disponível para programação do
                 concreto/argamassa;
-              </p>
+              </p> */}
             </div>
             <div className="capacidade">
-              <h4>CAPACIDADE</h4>
+              {/* <h4>CAPACIDADE</h4>
               <p>
                 A capacidade e disponibilidade de recursos devem estar
                 compatíveis ao planejamento mensal;
-              </p>
+              </p> */}
             </div>
           </div>
         </Container>
