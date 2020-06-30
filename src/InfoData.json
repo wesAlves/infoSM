@@ -129,7 +129,7 @@
         "ordem": "",
         "content": {
             "main": "",
-            "sim": " ",
+            "sim": "",
             "nao": ""
         },
         "type": "diamond"
@@ -189,7 +189,7 @@
         "ordem": "1",
         "content": {
             "main": "",
-            "sim": "”.",
+            "sim": "",
             "nao": ""
         },
         "type": "diamond"

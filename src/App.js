@@ -19,7 +19,7 @@ class App extends Component {
                   className={[conteudos.class, conteudos.type].join(" ")}
                   style={{ gridArea: conteudos.position }}
                 >
-                  {conteudos.content.sim == conteudos.content.nao ? (
+                  {conteudos.type !== "diamond" ? (
                     <ScrollDialog
                       title={conteudos.title}
                       content={conteudos.content.main}
@@ -28,27 +28,41 @@ class App extends Component {
                       label={conteudos.content.main}
                     />
                   ) : (
-                    <Fragment className="diamond">
-                      <ScrollDialog
-                        title="Sim"
-                        content={conteudos.content.sim}
-                        clsName="yes"
-                        contPos={conteudos.yesPos}
-                      />
-                      <ScrollDialog
-                        title={conteudos.title}
-                        content={conteudos.content.main}
-                        clsName="MainBt"
-                        contPos={conteudos.mainPos}
-                      />
-                      <ScrollDialog
-                        title="Não"
-                        content={conteudos.content.nao}
-                        clsName="no"
-                        contPos={conteudos.noPos}
-                      />
-                    </Fragment>
-                  )}
+
+                      <Fragment className="diamond">
+                        {conteudos.content.main === "" ? (
+                          <div class="MainBt" style={{ gridArea: conteudos.mainPos }}>{conteudos.title}</div>
+                        ) : (
+                            <ScrollDialog
+                              title={conteudos.title}
+                              content={conteudos.content.main}
+                              clsName="MainBt"
+                              contPos={conteudos.mainPos}
+                            />
+                          )}
+                        {conteudos.content.sim === "" ? (
+                          <div class="yes" style={{ gridArea: conteudos.yesPos }}>Sim</div>
+                        ) : (
+                            <ScrollDialog
+                              title="Sim"
+                              content={conteudos.content.sim}
+                              clsName="yes"
+                              contPos={conteudos.yesPos}
+                            />
+                          )}
+
+                        {conteudos.content.nao === "" ? (
+                          <div class="no" style={{ gridArea: conteudos.noPos }}>Não</div>
+                        ) : (
+                            <ScrollDialog
+                              title="Não"
+                              content={conteudos.content.nao}
+                              clsName="no"
+                              contPos={conteudos.noPos}
+                            />
+                          )}
+                      </Fragment>
+                    )}
                 </p>
               );
             })}
